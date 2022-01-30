@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="style.css" rel="stylesheet" />
+		<script src="sidebar.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Curiculum Vitae - SOTOCA Corentin</title>
+	</head>
+	<body>
+		<div class="sidebar">
+			<img src="img/photo.png" alt="Portrait" />
+			<section id="contact">
+				<h1>Contact :</h1>
+				<p>
+					<img
+						class="svg"
+						src="img/phone-svgrepo-com.svg"
+						alt="phone"
+					/>
+					<a href="tel:+33-7-81-39-09-71">+33 7 81 39 09 71</a>
+				</p>
+				<p>
+					<img
+						class="svg"
+						src="img/email-svgrepo-com.svg"
+						alt="mail"
+					/>
+					<a href="mailto:corentin.sotoca@gmail.com"
+						>corentin.sotoca@gmail.com</a
+					>
+					<br /><a href="mailto:corentin.sotoca.etu@univ-lille.fr"
+						>corentin.sotoca.etu@univ-lille.fr</a
+					>
+				</p>
+				<p>
+					<a
+						target="_blank"
+						href="https://goo.gl/maps/QksJ2FTbwE542WoH6"
+						>59320 Haubourdin (France)</a
+					>
+				</p>
+			</section>
+
+			<section id="competence">
+				<h1>Compétences techniques :</h1>
+				<ul>
+					<li>Java</li>
+					<li>Bash</li>
+					<li>Node-JS</li>
+					<li>Linux</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>PostgreSQL</li>
+					<li>Microsoft Access</li>
+					<li>C</li>
+					<li>Python</li>
+				</ul>
+			</section>
+		</div>
+
+		<header>
+			<img onclick="toggleNav()" class="menu" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/VisualEditor_-_Icon_-_Menu.svg/768px-VisualEditor_-_Icon_-_Menu.svg.png" alt="menu">
+			<h1>SOTOCA Corentin</h1>
+			<h2>Developpeur Java</h2>
+			<p>
+				En recherche d'un contrat d'apprentissage de 2 ans en tant que
+				developpeur Java en BUT Informatique pour une fréquence de
+				présence en entreprise d'une semaine sur deux.
+			</p>
+		</header>
+
+		<main>
+			<section id="formation">
+				<h3>Formations</h3>
+				<div>
+					<div class="one">
+						<b>2021-En cours:</b>
+					</div>
+					<div class="two">BUT 1 Informatique</div>
+					<div class="three">
+						Préparation en vue de l'obtention d'un BUT Informatique.
+					</div>
+				</div>
+				<div>
+					<div class="one">
+						<b>2017-2020:</b>
+					</div>
+					<div class="two">
+						Baccalauréat S SVT spé. Physique Chimie
+					</div>
+					<div class="three">
+						Diplome obtenu avec mention bien en section européenne.
+					</div>
+				</div>
+				<div>
+					<div class="one">
+						<b>2016-2017:</b>
+					</div>
+					<div class="two">PEI 3éme Science Po. Lille</div>
+					<div class="three">
+						4éme sur 10 au concours de fin d'année.
+					</div>
+				</div>
+			</section>
+
+			<section id="experience">
+				<h3>Experiences Professionnelles</h3>
+				<div>
+					<div class="one">
+						<b>2021-En cours:</b>
+					</div>
+					<div class="two">Préparateur de commande</div>
+					<div class="three">(Intérimaire) à la Redoute.</div>
+				</div>
+				<div>
+					<div class="one">
+						<b>mai 2017:</b>
+					</div>
+					<div class="two">Stage d'observation</div>
+					<div class="three">
+						3 jours dans le service informatique de la Redoute.
+					</div>
+				</div>
+			</section>
+
+			<section id="projet">
+				<h3>Projets</h3>
+				<ul>
+					<li class="un">
+						<div><b>Protokol</b>:</div>
+						<div>
+							BOT Discord codé en Javascript avec Node-JS
+							permettant d'échanger de la cryptomonnaie fictive en
+							fonction du vrai prix de la bourse. Projet effectué
+							en binôme pendant mon temps libre.
+						</div>
+					</li>
+					<li class="deux">
+						<div>
+							<b
+								><a target="_blank" href="https://protokol.gq/"
+									>Protokol.gq</a
+								></b
+							>:
+						</div>
+						<div>
+							Le site internet servant de vitrine au BOT Discord.
+						</div>
+					</li>
+					<li class="trois">
+						<div><b>Dicto</b>:</div>
+						<div>
+							Jeu de dictée codé en "iJava" (Du Java désorienté
+							objet en utilisant une librairie fournis par l'IUT
+							Informatique).
+						</div>
+					</li>
+					<li class="quatre">
+						<div>
+							<b
+								><a
+									target="_blank"
+									href="https://protokol.gq/ULTRAPlanning.html"
+									>ULTRAPlanning</a
+								></b
+							>:
+						</div>
+						<div>
+							Logiciel utilisant Node-JS qui récupére les fichiers
+							ICalendar de l'emploi du temps de ma formation et
+							qui les traite pour être plus lisible. Ensuite il en
+							crée plusieur, ce qui permet de diviser les types de
+							cours avec un code couleur sur nos gestionnaire
+							d'emploi du temps.
+						</div>
+					</li>
+					<li class="cinq">
+						<div><b>KTANE_Solver</b>:</div>
+						<div>
+							Logiciel de reconnaissance vocale fournissant un
+							partenaire virtuelle aux joueurs de
+							<i
+								><b>K</b>eep <b>T</b>alking <b>A</b>nd
+								<b>N</b>obody <b>E</b>xplodes</i
+							>. Projet en cours.
+						</div>
+					</li>
+					<li class="six">
+						<div><b>Cours</b>:</div>
+						<div>
+							Je donne des cours de soutient la veille de certains
+							devoir surveillé pour aider mes camarades de
+							promotion dans leur cursus.
+						</div>
+					</li>
+					<li class="sept">
+						<div><b>Liste BDE</b>:</div>
+						<div>
+							Je suis a la tête d'une liste BDE (<b>B</b>ureau
+							<b>D</b>es <b>E</b>lèves) qui a pour but de
+							s'occuper d'une association etudiante ayant pour
+							objectif d'organiser des événements créant une
+							cohésion au sein de la promotion.
+						</div>
+					</li>
+				</ul>
+			</section>
+		</main>
+	</body>
+</html>
