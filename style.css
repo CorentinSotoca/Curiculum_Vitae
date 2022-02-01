@@ -36,10 +36,8 @@ body {
 	background-color: rgb(240, 239, 236);
 	color: black;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 50%);
-}
-
-.sidebar{
 	overflow: hidden;
+	visibility: visible;
 }
 
 #contact h1{
@@ -63,7 +61,8 @@ header {
 }
 
 header > p {
-	width: 80%;
+	width: 60%;
+	margin: 0;
 }
 
 header > h1 {
@@ -74,10 +73,6 @@ header > h2 {
 	margin-top: 0;
 	margin-bottom: 0;
 
-}
-
-header > p {
-	margin: 0;
 }
 
 .svg {
@@ -189,10 +184,10 @@ main li {
 }
 
 .sept {
-	padding-bottom: 20px;
+	padding-bottom: 70px;
 }
 
-@media (max-width: 1360px) { /*Petit Ć©cran PC ou tablette*/
+@media (max-width: 1400px) { /*Petit Ć©cran PC ou tablette*/
 	html{
 		font-size: 20px;
 	}
@@ -204,6 +199,10 @@ main li {
 
 	#experience > div{
 		grid-template-columns: 170px 380px;
+	}
+
+	header > p {
+		width: 80%
 	}
 
 	main li {
@@ -261,11 +260,22 @@ main li {
 	}
 }
 
-@media (max-width: 600px) { /*Petit Ć©cran PC ou tablette*/
+@media (max-widht:1100px){
+	#formation > div{
+		grid-template-columns: 110px 220px;
+	
+	}
+	
+	#experience > div{
+		grid-template-columns: 110px 220px;
+	}
+}
+
+@media (max-width: 1100px) { /*Petit Ć©cran PC ou tablette*/
 	
 	html{
 		margin: 0;
-		font-size: 15px;
+		font-size: 19px;
 	}
 
 	header{
@@ -275,7 +285,7 @@ main li {
 	.sidebar{
 		visibility: hidden;
 		height: 100%;
-		font-size: 15px;
+		font-size: 19px;
 		width: 80%;
 		position: fixed;
 		top: 0;
@@ -294,6 +304,59 @@ main li {
 		left: 0;		
 		padding-left: 0;
 		padding-top: 25px;
+	}	
+
+	main li {
+		grid-template-columns: 140px 420px;
+		grid-template-rows: 50px 10px;
+	}
+
+	.un {
+		padding-bottom: 80px;
+	}
+	
+	.trois {
+		padding-bottom: 40px;
+	}
+	
+	.quatre {
+		padding-bottom: 150px;
+	}
+
+	.cinq{
+		padding-bottom: 50px;
+	}
+	
+	.six{
+		padding-bottom: 60px;
+	}
+	
+	.sept {
+		padding-bottom: 90px;
+	}
+
+	#formation > div{
+		grid-template-columns: 110px 440px;
+	
+	}
+	
+	#experience > div{
+		grid-template-columns: 110px 440px;
+	}
+
+	#contact > p {
+		margin-top: 5px;
+	}
+}
+
+@media (max-width:700px){
+
+	html{
+		font-size: 15px;
+	}
+
+	.sidebar{
+		font-size: 15px;
 	}
 	main{
 		padding-left: 20px;
@@ -340,7 +403,23 @@ main li {
 	#contact > p {
 		margin-top: 5px;
 	}
+}
 
+@media (max-width:400px){
+	html{
+		font-size: 14px;
+	}
+	#formation > div{
+		grid-template-columns: 90px 200px;
 	
+	}
+	
+	#experience > div{
+		grid-template-columns: 90px 200px;
+	}
+
+	main li {
+		grid-template-columns: 90px 200px;
+	}
 }
 
